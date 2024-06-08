@@ -9,23 +9,9 @@ sensor data was collected from the developed application Safe Drive and stored c
 
 ## Directory Structure
 India
- D1
-  Earable
-  Smartphonesense
-  Video_Data
-  Wristband
+ -D1
+  -Earable
+  -Smartphonesense
+  -Video_Data
+  -Wristband
      
-$ tree
-.
-├── dir1
-│   ├── file11.ext
-│   └── file12.ext
-├── dir2
-│   ├── file21.ext
-│   ├── file22.ext
-│   └── file23.ext
-├── dir3
-├── file_in_root.ext
-└── README.md
-
-3 directories, 7 files
