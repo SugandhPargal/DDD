@@ -8,6 +8,10 @@ sensor data was collected from the developed application Safe Drive and stored c
 “videoA.mp4", respectively, each video of duration 1 minutes. Earable sensed data is stored as an earable.csv file with all the captured fields. Metadata, such as annotations about anomalous or normal instances and their context, are provided as annotations.csv files. Each folder corresponds to a single trip of a driver for 30 mins of continuous driving in a naturalistic setup. The folder contains subfolder video, which contains the front (driver view) and rear (on-road view) of the dashcam; sensor.csv, which contains IMU, GPS, and a few other sensor data captured using the mounted smartphone; earable.csv, which captures IMU for head movement of the driver, E4.zip which contains HR.csv,BVP.csv,IBI.csv,EDA.csv,TEMP.csv,ACC.csv and annotations.csv which contains the field of normal or anomalous instance and context field for those anomalies.
 
 ## Directory Structure
-1. First list item
-   - First nested list item
-     - Second nested list item
+India
+ D1
+  Earable
+  Smartphonesense
+  Video_Data
+  Wristband
+     
