@@ -62,7 +62,7 @@ LICENSE
 
 To install use the following commands.
 ```bash
-git clone https://github.com/arghasen10/mmDoppler.git
+git clone https://github.com/SugandhPargal/DDD.git
 pip install -r requirements.txt
 mkdir datasets
 cd datasets
