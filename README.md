@@ -68,8 +68,9 @@ DDD
             └── Annotations
 └── codebase
     └── data_preprocessing.py
-    └── accuracy_computation.py
+    └── merge_wristband.py
     └── model.py
+    └── accuracy_computation.py
 └── requirements.txt
 └── README.md
 LICENSE
