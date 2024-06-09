@@ -29,3 +29,39 @@ $ tree
 └── README.md
 
 3 directories, 7 files
+
+
+# File Structure
+```
+Assets
+Data
+    └── {file}.py
+library
+    └── __init__.py
+    └── base_metrics.py
+    └── breakpoints.py
+    └── constants.py
+    └── feat.py
+    └── preprocess.py
+
+merge_replicas.py
+preprocess_data.py
+mark_breakpoints.py
+compute_feat.py
+requirements.txt
+.gitignore
+LICENSE
+```
+
+# Reference
+To refer the DDD Datsset, please cite the following work.
+
+BibTex Reference:
+```
+@article{to_be_declared,
+  title={Driving in Diverse Environments - A Multimodal Datasets for Contextual Driving Anomaly Analysis},
+  author={Pargal, Sugandh and Chakraborty, Sandip},
+  year={2024}
+}
+```
+For questions and general feedback, contact [Sugandh Pargal](https://sugandhpargal.github.io/sugandh20/).
