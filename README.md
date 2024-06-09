@@ -3,7 +3,7 @@ Distracted drivers are more prone to overlooking potential hazards, resulting in
 
 
 <p align="center">
-      <img src="./DDD_setup/data_collection.png" width="90%"/><br><strong>Fig.1:</strong> Data Collection setup while driving with 4 sensor devices worn and used by the driver.
+      <img src=".DDD/DDD_setup/DataCollection.png" width="90%"/><br><strong>Fig.1:</strong> Data Collection setup while driving with 4 sensor devices worn and used by the driver.
 </p>
 
 ## Dataset Description
