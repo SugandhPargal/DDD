@@ -14,7 +14,7 @@ sensor data was collected from the developed application Safe Drive and stored c
 
 In the dataset we have given comprehensive metadata for all the sensors and their placemant. The collected attributes from each sensor is as shown below.
 
-| `Parameters` | `Description`                                                                                |
+| `Device` | `Fields` | `Sampling Frequency (Hz)'| 'Storage'|                                                                           |            
 |------------|--------------------------------------------------------------------------------------------|
 | ts         | Timestamp (yyyy/mm/dd HH:MM:SS) from the ESP32 MCU after reading sensor values             |
 | T          | Temperature reading of the indoor environment in celsius at time ts                        |
@@ -32,6 +32,43 @@ In the dataset we have given comprehensive metadata for all the sensors and thei
 | Customer   | The name of the occupant who participated during the sensor deployment in his indoor space |
 | Ph         | Phone number of the customer for urgent contact. Replaced with XXXX to preserve privacy    |
 
+
+
+
+
+
+   
+Smartphone (SafeDrive App)
+Accelerometer -x,y,z,
+Gyroscope- x,y,z,
+Gravity- x,y,z,
+Linear Acceleration,
+Magnetometer- x,y,z,
+Orientation- x,y,z,
+GPS- Latitude, Longitude,
+Speed
+120 sensor.csv
+Empatica E4 Wristband
+Electrodermal Activity (EDA),
+Blood Volume Pulse (BVP),
+Inter-beat Interval (IBI),
+Heart Rate Variability (HRV),
+Accelerometer -x,y,z,
+Temperature
+EDA: 4, BVP: 64,
+IBI: -, HR: 1,
+ACC: 32, TEMP: 4
+EDA.csv,
+BVP.csv,
+IBI.csv,
+HR.csv,
+ACC.csv,
+TEMP.csv
+Nexar Dash Pro Cam (Front) Video (1280x720) 30 fps videoB.mp4
+Nexar Dash Pro Cam (Rear) Video (1280x720) 30 fps videoA.mp4
+Custom Earable Device Accelerometer - x,y,z,
+Gyroscope - x,y,z 40 earable.csv
+Annotations Instance, Context - annotations.csv
 
 ## Directory Structure
 ```
