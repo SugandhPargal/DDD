@@ -14,7 +14,8 @@ sensor data was collected from the developed application Safe Drive and stored c
 
 We have given comprehensive metadata for all the sensors and their placement in the dataset. The collected attributes from each sensor is as shown below.
 
-| `Device`                  | `Fields`                      | `Sampling Frequency (Hz)`|   `Storage`      |                 |---------------------------|-------------------------------|--------------------------|------------------|
+| `Device`                  | `Fields`                      | `Sampling Frequency (Hz)`|   `Storage`      |
+|---------------------------|-------------------------------|--------------------------|------------------|
 | Smartphone (SafeDrive App)|Accelerometer -x,y,z           |                          |                  |
 |                           |Gyroscope- x,y,z               |                          |                  |
 |                           |Gravity- x,y,z                 |                          |                  |
