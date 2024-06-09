@@ -12,25 +12,31 @@ sensor data was collected from the developed application Safe Drive and stored c
 “videoA.mp4", respectively, each video of duration 1 minutes. Earable sensed data is stored as an earable.csv file with all the captured fields. Metadata, such as annotations about anomalous or normal instances and their context, are provided as annotations.csv files. Each folder corresponds to a single trip of a driver for 30 mins of continuous driving in a naturalistic setup. The folder contains subfolder video, which contains the front (driver view) and rear (on-road view) of the dashcam; sensor.csv, which contains IMU, GPS, and a few other sensor data captured using the mounted smartphone; earable.csv, which captures IMU for head movement of the driver, E4.zip which contains HR.csv,BVP.csv,IBI.csv,EDA.csv,TEMP.csv,ACC.csv and annotations.csv which contains the field of normal or anomalous instance and context field for those anomalies.
 
 
-In the dataset we have given comprehensive metadata for all the sensors and their placemant. The collected attributes from each sensor is as shown below.
+We have given comprehensive metadata for all the sensors and their placement in the dataset. The collected attributes from each sensor is as shown below.
 
-| `Device` | `Fields` | `Sampling Frequency (Hz)'| 'Storage'|                                                                           |            
-|------------|--------------------------------------------------------------------------------------------|
-| ts         | Timestamp (yyyy/mm/dd HH:MM:SS) from the ESP32 MCU after reading sensor values             |
-| T          | Temperature reading of the indoor environment in celsius at time ts                        |
-| H          | Humidity reading of the indoor environment in percentage at time ts                        |
-| PMS1       | Less than 1 micron dust particle readings in parts per million (ppm) at time ts            |
-| PMS2_5     | Less than 2.5 micron dust particle readings in ppm at time ts                              |
-| PMS10      | Less than 10 micron dust particle readings in ppm at time ts                               |
-| CO2        | Carbon dioxide concentration in ppm at time ts                                             |
-| NO2        | Nitrogen dioxide concentration in ppm at time ts                                           |
-| CO         | Carbon monoxide concentration in ppm at time ts                                            |
-| VoC        | Volatile organic compounds concentration in parts per billion (ppb) at time ts             |
-| C2H5OH     | Ethyl alcohol concentration in ppb at time ts                                              |
-| ID         | Unique identifier of the deployed \ourmethod{} sensor                                      |
-| Loc        | Location of DALTON sensor in the indoor environment                                        |
-| Customer   | The name of the occupant who participated during the sensor deployment in his indoor space |
-| Ph         | Phone number of the customer for urgent contact. Replaced with XXXX to preserve privacy    |
+| `Device`                  | `Fields`                      | `Sampling Frequency (Hz)'|   'Storage'      |                 |---------------------------|-------------------------------|--------------------------|------------------|
+| Smartphone (SafeDrive App)|Accelerometer -x,y,z           |                          |                  |
+|                           |Gyroscope- x,y,z               |                          |                  |
+|                           |Gravity- x,y,z                 |                          |                  |
+|                           |Linear Acceleration            |            120           |  sensor.csv      |
+|                           |Magnetometer- x,y,z            |                          |                  |
+|                           |Orientation- x,y,z             |                          |                  |
+|                           |GPS- Latitude, Longitude       |                          |                  |
+|                           |Speed                          |                          |                  |
+| Empatica E4 Wristband     |Electrodermal Activity (EDA)   |             4            |   EDA.csv        |
+|                           |Blood Volume Pulse (BVP)       |             64           |   BVP.csv        |
+|                           |Inter-beat Interval (IBI)      |             -            |   IBI.csv        |
+|                           |Heart Rate Variability (HRV)   |             1            |   HR.csv         |
+|                           |Accelerometer -x,y,z           |             32           |   ACC.csv        |
+|                           |Temperature                    |             4            |   TEMP.csv       |
+| Nexar Dash Pro Cam (Front)|Video (1280x720)               |             30 fps       |   videoB.mp4     |
+| Nexar Dash Pro Cam (Rear) |Video (1280x720)               |             30 fps       |   videoA.mp4     |
+| Custom Earable Device     |Accelerometer - x,y,z          |             40           |   earable.csv    |
+|                           |Gyroscope - x,y,z              |             40           |   earable.csv    |
+|Annotations                |Instance, Context              |             1per 30s     |  annotations.csv |
+
+All the files have the first column as Timestamp (yyyy/mm/dd HH:MM:SS) recorded as Epoch & Unix Timestamp.
+
 
 
 
@@ -38,37 +44,10 @@ In the dataset we have given comprehensive metadata for all the sensors and thei
 
 
    
-Smartphone (SafeDrive App)
-Accelerometer -x,y,z,
-Gyroscope- x,y,z,
-Gravity- x,y,z,
-Linear Acceleration,
-Magnetometer- x,y,z,
-Orientation- x,y,z,
-GPS- Latitude, Longitude,
-Speed
-120 sensor.csv
-Empatica E4 Wristband
-Electrodermal Activity (EDA),
-Blood Volume Pulse (BVP),
-Inter-beat Interval (IBI),
-Heart Rate Variability (HRV),
-Accelerometer -x,y,z,
-Temperature
-EDA: 4, BVP: 64,
-IBI: -, HR: 1,
-ACC: 32, TEMP: 4
-EDA.csv,
-BVP.csv,
-IBI.csv,
-HR.csv,
-ACC.csv,
-TEMP.csv
-Nexar Dash Pro Cam (Front) Video (1280x720) 30 fps videoB.mp4
-Nexar Dash Pro Cam (Rear) Video (1280x720) 30 fps videoA.mp4
-Custom Earable Device Accelerometer - x,y,z,
-Gyroscope - x,y,z 40 earable.csv
-Annotations Instance, Context - annotations.csv
+
+
+
+
 
 ## Directory Structure
 ```
