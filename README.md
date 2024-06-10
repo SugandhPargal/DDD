@@ -57,7 +57,7 @@ DDD
     └── India
         └── D1.zip-D2.zip-D3.zip-----D42.zip
             └── Wristband
-            └── Smartphonesense (Absent for some cases due to connectivity issue)
+            └── Smartphonesense (Absent in some cases due to connectivity issues)
             └── Video_Data
             └── Earable
             └── Annotations
@@ -82,7 +82,6 @@ To install use the following commands.
 ```bash
 git clone https://github.com/SugandhPargal/DDD.git
 pip install -r requirements.txt
-mkdir datasets
 cd datasets
 ```
 
@@ -92,10 +91,6 @@ To refer the DDD Datsset, please cite the following work.
 
 BibTex Reference:
 ```
-@article{to_be_declared,
-  title={Driving in Diverse Environments - A Multimodal Datasets for Contextual Driving Anomaly Analysis},
-  author={Pargal, Sugandh and Chakraborty, Sandip},
-  year={2024}
-}
+TO BE DECLARED
 ```
 For questions and general feedback, contact [Sugandh Pargal](https://sugandhpargal.github.io/sugandh20/).
