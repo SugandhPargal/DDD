@@ -49,3 +49,7 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accur
 
 # Train the model (replace with your training data)
 model.fit(X_train, y_train, epochs=epochs, batch_size=batch_size)
+
+model_file = 'model.pkl'  # Replace with desired filename and extension
+
+model.save(model_file)
