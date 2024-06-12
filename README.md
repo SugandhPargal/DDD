@@ -76,7 +76,7 @@ DDD
 └── ./requirements.txt
 ```
 # License and Consent
-The dataset is free to download and can be used with `GNU Affero General Public License` for non-commercial purposes. All participants signed forms consenting to the use of collected driving data for non-commercial research purposes. The Institute's Ethical Review Board (IRB) at IIT Kharagpur, India has approved the data collection under the study title: “Human Activity Monitoring in Pervasive Sensing Setupfield", with the Approval Number: IIT/SRIC/DEAN/2023, dated July 31, 2023. Moreover, we have made significant efforts to anonymize the participants to preserve privacy while providing the useful and necessary information to encourage future research with the dataset.
+The dataset is free to download and can be used with `GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007` for non-commercial purposes. All participants signed forms consenting to the use of collected driving data for non-commercial research purposes. The Institute's Ethical Review Board (IRB) at IIT Kharagpur, India has approved the data collection under the study title: “Human Activity Monitoring in Pervasive Sensing Setupfield", with the Approval Number: IIT/SRIC/DEAN/2023, dated July 31, 2023. Moreover, we have made significant efforts to anonymize the participants to preserve privacy while providing the useful and necessary information to encourage future research with the dataset.
 
 # Reference
 To refer the DDD Datsset, please cite the following work.
