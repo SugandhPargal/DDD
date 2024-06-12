@@ -34,17 +34,19 @@ We have given comprehensive metadata for all the sensors and their placement in 
 |                           |Gyroscope - x,y,z              |             40           |   earable.csv    |
 |Annotations                |Instance, Context              |             1per 30s     |  annotations.csv |
 
-All the files have the first column as Timestamp (yyyy/mm/dd HH:MM:SS) recorded as Epoch & Unix Timestamp.
+All the files have the first column as Timestamp (yyyy/mm/dd HH:MM:SS) as Unix Timestamp except smartphonesene which has recorded as Epoch Timestamp. 
 
 
 
+## Installation:
 
-
-
-
-   
-
-
+To install use the following commands.
+```bash
+git clone https://github.com/SugandhPargal/DDD.git
+pip install -r requirements.txt
+cd datasets
+```
+Please download the dataset through [Google Drive](https://drive.google.com/drive/folders/1G96mcICCKixY2qjKHkemLcpLBJ7ooZJ9?usp=drive_link) and paste the data in datasets directory.
 
 
 
@@ -69,26 +71,18 @@ DDD
     └── merge_wristband.py
     └── model.py
     └── accuracy_computation.py
-└── requirements.txt
-└── README.md
-LICENSE
+└── LICENSE
+└── ./README.md
+└── ./requirements.txt
 ```
+# License and Consent
+The dataset is free to download and can be used with `GNU Affero General Public License` for non-commercial purposes. All participants signed forms consenting to the use of collected driving data for non-commercial research purposes. The Institute's Ethical Review Board (IRB) at IIT Kharagpur, India has approved the data collection under the study title: “Human Activity Monitoring in Pervasive Sensing Setupfield", with the Approval Number: IIT/SRIC/DEAN/2023, dated July 31, 2023. Moreover, we have made significant efforts to anonymize the participants to preserve privacy while providing the useful and necessary information to encourage future research with the dataset.
 
-## Installation:
-
-To install use the following commands.
-```bash
-git clone https://github.com/SugandhPargal/DDD.git
-pip install -r requirements.txt
-cd datasets
-```
-
-Please download the dataset through [Google Drive](https://drive.google.com/drive/folders/1G96mcICCKixY2qjKHkemLcpLBJ7ooZJ9?usp=drive_link) and paste the data in datasets directory.
 # Reference
 To refer the DDD Datsset, please cite the following work.
 
 BibTex Reference:
 ```
-TO BE DECLARED
+TO BE DECLARED SOON
 ```
 For questions and general feedback, contact [Sugandh Pargal](https://sugandhpargal.github.io/sugandh20/).
