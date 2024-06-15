@@ -46,7 +46,7 @@ git clone https://github.com/SugandhPargal/DDD.git
 pip install -r requirements.txt
 cd datasets
 ```
-Please download the dataset through [Google Drive](https://drive.google.com/drive/folders/1G96mcICCKixY2qjKHkemLcpLBJ7ooZJ9?usp=drive_link) and paste the data in datasets directory.
+Please download the dataset through [Google Drive](https://drive.google.com/drive/folders/1G96mcICCKixY2qjKHkemLcpLBJ7ooZJ9?usp=sharing) and paste the data in datasets directory.
 
 
 
